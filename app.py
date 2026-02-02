@@ -8,7 +8,9 @@ FLAG = "cyber{idor_exposed_data}"
 users = {
     "100": {"name": "Alice", "role": "User"},
     "101": {"name": "Bob", "role": "User"},
-    "102": {"name": "Admin", "role": "Admin", "flag": FLAG}
+    "102": {"name": "kaviya", "role": "User"},
+    "103": {"name": "chota Bheme", "role": "User"},
+    "104": {"name": "Admin", "role": "Admin", "flag": FLAG}
 }
 
 @app.route("/")
@@ -27,3 +29,4 @@ def profile():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
